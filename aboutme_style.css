@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family: 'Lato'; 
+  height: 100%; 
+
+}
+img{
+	 display:block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+}
+p{
+	text-align: center; 
+}
+
+h2{
+	text-align: center; 
+}
+
+span{
+	font-size: 50px; 
+}
+
+#navbar{
+  position: relative; 
+  width: 100%; 
+  height: 80px; 
+  bottom: 10px;  
+  font-weight: bold;  
+  
+}
+
+.logo{
+	display: inline-block; 
+	vertical-align: top; 
+	margin-right: 20px; 
+	margin-top: 10px; 
+	width: 7%; 
+}
+
+.navigation-bar > a{
+
+	display: inline-block; 
+	vertical: top; 
+	margin-right: 20px; 
+	height: 80px; 
+	line-height: 80px; 
+	float: right; 
+
+}
+
+
+.navigation-bar > a:hover{
+  color: #E84A27; 
+}
+
+/* Link color */ 
+
+.navigation-bar > a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+.navigation-bar > a:link{
+	text-decoration: none; 
+}
+
+.navigation-bar > a:hover{
+	text-decoration: none; 
+	color: #E84A27; 
+	
+}
+
+.navigation-bar > a:active{
+	text-decoration: none; 
+}
+/* END Link color */ 
+
+ a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+a:link{
+	text-decoration: underline; 
+	font-weight: bold; 
+}
+
+a:hover{
+	text-decoration: none; 
+	color: #E86252;
+}
+
+a:active{
+	text-decoration: none;
+	font-weight: bold; 
+}
+
+footer{
+ position: relative; 
+ left: 0; 
+ bottom: 0; 
+ width: 100%; 
+ text-align: center; 
+}
