@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap'); /* adds font-weight black */ 
+
+
+body{
+  
+  font-family: 'Lato', sans-serif; 
+  
+}
+
+#container{
+	min-height: 100%; 
+	
+}
+
+main{
+	overflow: auto; 
+	padding-bottom: 150px; 
+}
+h2{
+										
+  text-align: center; 
+  font-size: 24px; 
+}
+
+h3{
+  display: block;  
+  margin-left: auto; 
+  margin-right: auto; 
+  font-weight: black; 
+  font-size: 18px; 
+  text-align: left; 
+  width: 55%;   
+
+}
+
+h4{
+  margin-left: 300px; 
+}
+
+p{
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+  
+  font-size: 16px; 
+  line-height: 1.5em; 
+ 
+ overflow: auto;
+
+}
+
+#navbar{
+  position: relative; 
+  width: 100%; 
+  height: 80px; 
+  bottom: 10px;  
+  font-weight: normal; 
+  margin-top: 0px;  
+ 
+}
+
+
+.logo{
+	display: inline-block; 
+	vertical-align: top; 
+	margin-right: 20px; 
+	margin-top: 10px;
+	
+	width: 7% !important; 
+}
+
+.navigation-bar > a{
+
+	display: inline-block; 
+	vertical: top; 
+	margin-right: 20px; 
+	height: 80px; 
+	line-height: 80px; 
+	float: right; 
+	}
+
+
+ol{
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+  
+}
+
+img{
+  display:block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 40%; 
+  
+  }
+
+figcaption{
+
+	text-align: center; 
+}
+
+#navul{
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+}
+
+#navli{
+  float: right;
+}
+
+#navli a{
+  display: block; 
+  text-align: center; 
+  padding: 14px 16px; /*places space between nav bar li */
+}
+
+#navli a:hover{
+  color: #0496FF; 
+}
+
+span{
+
+font-weight: bold; 
+}
+
+#old{
+	
+}
+
+#new{
+	
+	}
+	
+
+.navigation-bar > a{
+	margin-top: 0px; 
+}
+
+.navigation-bar > a:hover{
+  color: #E84A27; 
+  
+}
+
+/* NAV Link color */ 
+
+.navigation-bar > a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+.navigation-bar > a:link{
+	text-decoration: none; 
+}
+
+.navigation-bar > a:hover{
+	text-decoration: none; 
+	color: #E84A27; 
+	
+}
+
+.navigation-bar > a:active{
+	text-decoration: none; 
+}
+/* END Nav Link color */ 
+
+/* Footer Link color */ 
+
+ a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+ a:link{
+	text-decoration: none; 
+}
+
+ a:hover{
+	text-decoration: none; 
+	color: #E84A27; 
+	
+}
+
+ a:active{
+	text-decoration: none; 
+}
+/* END Footer Link color */ 
+
+footer{
+ position: relative; 
+ left: 0; 
+ bottom: 0; 
+ width: 100%; 
+ text-align: center; 
+ word-spacing: 30px; 
+}
