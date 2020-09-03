@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap'); /* adds font-weight black */ 
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 
 
 body{
-  font-family: 'Lato';  
+  font-family: 'Lato', sans-serif;  
   
 }
 
@@ -46,6 +48,7 @@ p{
  bottom: 10px;  
  font-weight: normal;
  font-size: 1.15rem; 
+ font-family: 'Raleway', sans-serif; 
   
 }
 
