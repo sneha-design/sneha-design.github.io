@@ -67,6 +67,7 @@ span{
 
 .navigation-bar > a:link{
 	text-decoration: none; 
+	color: black; 
 }
 
 .navigation-bar > a:hover{
@@ -77,6 +78,7 @@ span{
 
 .navigation-bar > a:active{
 	text-decoration: none; 
+	color: black; 
 }
 /* END Link color */ 
 
@@ -87,7 +89,7 @@ span{
 
 a:link{
 	text-decoration: underline; 
-	font-weight: bold; 
+	color: black; 
 }
 
 a:hover{
@@ -97,7 +99,7 @@ a:hover{
 
 a:active{
 	text-decoration: none;
-	font-weight: bold; 
+	color: black; 
 }
 
 footer{
