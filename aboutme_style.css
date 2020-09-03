@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body{
-  font-family: 'Lato'; 
+  font-family: 'Lato', sans-serif; 
   height: 100%; 
 
 }
@@ -30,7 +31,7 @@ span{
   height: 80px; 
   bottom: 10px;    
   font-size: 1.15rem; 
-  font-weight: normal;
+  font-family: 'Raleway', sans-serif; 
 }
 
 .logo{
