@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins'; 
+  height: 100%; 
+
+}
+
+#navbar{
+	position: relative; 
+	width: 100%; 
+	height: 80px; 
+	bottom: 20px;  
+	font-family: 'Raleway'; 
+	font-size: 1.25rem;
+  }
+
+  .logo{
+	float: left;
+	display: inline-block; 
+	  vertical-align: top; 
+	  margin-right: 20px; 
+	  margin-top: 10px; 
+	  width: 7% !important; 
+  }
+  
+
+h1{
+	text-align: center; 
+	font-family: 'Poppins';
+}
+
+img{
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%; 
+	width: 30%;
+}
+
+.pic{
+	display: block;
+	float: left; 
+	margin-left: 10%; 
+	margin-right: auto; 
+	height: 50%; 
+	width: 30%; 
+}
+
+p{
+	display: block;
+	float: center; 
+	margin-left: 50%;
+	margin-right: 10%; 
+	font-size: 1.5rem;
+	
+}
+
+span{
+	color: #9E9EFF; 
+}
+
+
+
+  footer{
+	position: relative; 
+	left: 0; 
+	bottom: 0; 
+	width: 100%; 
+	height: 15vh;
+	text-align: left;
+	background-color: #9E9EFF; 
+   
+	color: whitesmoke;
+	
+   }
+
+   .fa-linkedin{
+	color: whitesmoke;
+	float: right; 
+	margin-right: 1.5%;
+	margin-top: 50px;
+  }
+  
+  .fa-copyright{
+	margin-left: 1.5%;
+	margin-top: 50px;
+  }
+  
+  .fa-linkedin:hover{
+	color: teal;
+	
+  }
+
+.navigation-bar > a{
+
+	display: inline-block; 
+	vertical: top; 
+	margin-right: 20px; 
+	height: 80px; 
+	line-height: 80px; 
+	float: right; 
+
+}
+
+
+
+/* Link color */ 
+
+.navigation-bar > a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+.navigation-bar > a:link{
+	text-decoration: none; 
+}
+
+.navigation-bar > a:hover{
+	text-decoration: none; 
+	color: #9E9EFF; 
+	
+}
+
+.navigation-bar > a:active{
+	text-decoration: none; 
+}
+/* END Link color */ 
+
+ a:visited{
+	text-decoration: none; 
+	color: black; 
+}
+
+a:link{
+	text-decoration: underline; 
+	font-weight: bold; 
+}
+
+a:hover{
+	text-decoration: none; 
+	color: #9E9EFF;
+}
+
+a:active{
+	text-decoration: none;
+	font-weight: bold; 
+}
+
