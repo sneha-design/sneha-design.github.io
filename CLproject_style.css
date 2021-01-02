@@ -220,6 +220,40 @@ footer{
    
  }
 
+@media(max-width: 1200px){
+
+
+        img{
+          width: 80%; 
+        }
+
+        .logo{
+          width: 10% !important; 
+        }
+
+        #navbar{
+          font-size: 1.5em;
+        }
+
+        h1{
+          font-size: 3em;
+        }
+
+        h3{
+          font-size: 2.5em;
+          width: 75%; 
+        }
+
+        p{
+          font-size: 2em;
+          width: 70%; 
+        }
+
+        li{
+          font-size: 2em; 
+        }
+
+       }
 
 
  
