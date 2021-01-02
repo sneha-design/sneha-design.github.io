@@ -239,3 +239,13 @@ h2{
 }
 
 }
+
+@media(max-width: 1200px){
+
+
+        .logo{
+          width: 10% !important; 
+        }
+
+  
+       }
